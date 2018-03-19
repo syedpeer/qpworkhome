@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+
+		<title>ERP Review</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style type="text/css">
+
+			.reveal .footer {
+				position: absolute;
+				top: 0;
+				left: 0;
+				font-size: 0.5em;
+				display:none;
+			}
+
+			#myTextDiv1 {
+				position: absolute;
+				background-color: red;
+				color:white;
+				left: -1200px;
+    		top: 0px;
+
+			}
+
+			div.mylistitem {
+				position: absolute;
+				width: 600px;
+				height: 50px;
+				background-color: red;
+				left: -1200px;
+				top: 200px;
+			}
+
+			div.mylistitem::before {
+				/* content: "&amp;" ; */
+			}
+
+			div.myrect {
+				position: absolute;
+				font-family: Georgia, verdana;
+				font-size: 16px;
+				width: 300px;
+				height: 100px;
+				overflow: hidden;
+			}
+
+			#divRectangle {
+			  position: absolute;
+			}
+
+			#divRectangle {
+			  background-color: indianred;
+				font-family: Georgia, verdana;
+				font-size: 16px;
+			  width: 300px;
+			  height: 100px;
+			  top: 50px;
+			  left: -1200px;
+				overflow: hidden;
+				vertical-align: top;
+			}
+
+			#divRectangle2 {
+			  background-color: brown;
+			  top: 50px;
+			  left: -1200px;
+			}
+
+		#first-box {
+				background-color: indianred;
+				color: yellow;
+				left: -1200px;
+    		top: 200px;
+			}
+
+		#second-box {
+				background-color: blue;
+				color: white;
+				left: -1100px;
+    		top: 200px;
+			}
+
+		#third-box {
+				background-color: maroon;
+				color: yellow;
+				left: -1100px;
+    		top: -1100px;
+			}
+
+		#left_side {
+			width: 50%;
+			/* border: 1px solid yellow; */
+		}
+
+		.my_title {
+			background-color: red;
+			color: white;
+		}
+
+		.colfg_red			{ color: red; }
+		.colfg_blue 		{ color: blue; }
+		.colfg_green		{ color: green; }
+		.colfg_magenta 	{ color: magenta; }
+
+
+		.left_sidebar {
+			width: 50%;
+			border: 1px solid white;
+			text-align: left;
+		}
+
+		.left_sidebar_wide {
+			width: 90%;
+			border: 1px solid white;
+			text-align: left;
+		}
+
+
+		.left-side-bar-narrow {
+			width: 50%;
+			font-size: 14px;
+		}
+
+		.selected {
+				background: white;
+				color: blue;
+			}
+
+		.highlight {
+				background: yellow;
+				color: darkgreen;
+			}
+
+		.highlight-gray {
+				background: #1f1f1f;
+				color: white;
+			}
+
+			.box {
+				position: absolute;
+				top: 100px;
+				right: 200px;
+				width: 200px;
+				height: 400px;
+				background-color: aqua;
+				border: 1px solid white;
+			}
+		.bbc_head 	{ background-color: black; color: yellow; padding: 0 10px; border: 5px solid red;}
+		.bbc_headx 	{ background-color: #7E827A ; color: yellow; padding: 0 10px; border: 5px solid red;}
+
+		.bbc_text 	{ background-color: yellow; color:black; padding: 0 10px;}
+		.bbc_text::before { content: " ";}
+		.bbc_text::after { content: "  ";}
+		.smaller		{ color: red; font-size: 10px; }
+
+		</style>
+
+		<link rel="stylesheet" href="css/mystyle.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class='footer'>Use left and right arrows to navigate</div>
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section  id="home" data-state="intro" data-background="images/bg/qafco-pptx-template.jpg">
+					<br/><br/><br/>
+					<h1>ERP PRESENTATION</h1>
+
+					<span style="background-color:#7E827A;padding: 0 10px;">System of Record Status <br/><br/> Road Map 2018+</span>
+					<!--
+					<h3><span style-'color:red;'>2017 year in review <br/>&amp;<br/> Road Map 2018+</span></h3>
+					-->
+					<p>
+						<small>Created by <a href="#">IT Department</a></small>
+					</p>
+
+				</section>
+
+				<section data-state="recent-proj-updates" data-background="images/bg/apple-desk-laptop-working_dark.png">
+
+					<h2>AGENDA</h2>
+
+					<div class="left_sidebar_wide">
+						<ul>
+							<li class="fragment highlight colfg_blue">ERP Overview</li>
+								<ul>
+									<li class="fragment fade-in">Definition &amp; Market Leaders</li>
+									<li class="fragment fade-in">ERP CORE Modules &amp; History</li>
+									<li class="fragment fade-in">ERP Modules Implemented</li>
+								</ul>
+						</ul>
+						<ul>
+							<li class="fragment fade-in highlight">Projects 2017</li>
+								<ul>
+									<li class="fragment fade-in">New Custom Application/Enhancements</li>
+									<li class="fragment fade-in">JDE/SAP Assessment Study</li>
+									<li class="fragment fade-in">Typical Areas of Concern</li>
+									<li class="fragment fade-in">L &amp; T Audits</li>
+								</ul>
+						</ul>
+						<ul>
+							<li class="fragment highlight colfg_blue">ERP ROAD MAP 2018+</li>
+								<ul>
+									<li class="fragment slide-in">ERP Technical &amp; Functional Upgrade</li>
+									<li class="fragment fade-in">ERP Additional/New Modules</li>
+									<li class="fragment fade-in">ERP External Products</li>
+								</ul>
+						</ul>
+					</div>
+
+					<img id="mylogo"  class="logo" src="images/portfolio6.jpg">
+					<img id="mylogo2" class="logo" src="images/portfolio7.jpg">
+					<img id="mylogo3" class="logo" src="images/portfolio8.jpg">
+
+				</section>
+
+				<section data-state="mobile-access" data-background="images/bg/apple-desk-laptop-working_dark.png" style="text-align: left; vertical-align:top">
+
+					<h2>DEFINITION</h2>
+					<div class="left_sidebar_wide">
+						<span class="bbc_headx">ERP</span><span class="bbc_text">Wikipedia</span>
+
+						<p class="fragment roll-in">Enterprise Resource Planning (ERP) is the integrated management of core business processes, often in real-time and mediated by software and technology.</p>
+
+						<p class="fragment roll-in">ERP is referred to as a category of business-management software - a suite of integrated applications that an organization can use to collect, store, manage and interpret data from these many business activities.</p>
+
+						<p class="fragment roll-in">ERP provides an integrated and continuously updated view of core business processes.</p>
+
+					</div>
+				</section>
+
+				<section data-state="mobile-access" data-background="images/bg/apple-desk-laptop-working_dark.png" style="text-align: left; vertical-align:top">
+
+					<h2>DEFINITION</h2>
+					<div class="left_sidebar_wide">
+						<span class="bbc_headx">ERP</span><span class="bbc_text">Why use it ?</span>
+
+						<p class="fragment roll-in">The Enterprise Resource Planning (ERP) System is the electronic System of Record for the enterprise.</p>
+
+						<p class="fragment roll-in">The ERP system encapsulates industry Best Practices from hundreds of companies across the industry and vertical for specilizations. It future proofs the organization with the latest updates and industry specifications.</p>
+
+						<p class="fragment roll-in">ERP does all this with an integrated solution.</p>
+
+					</div>
+				</section>
+
+				<section data-state='projects-updates' data-background="images/bg/market-leaders-dark.jpg" data-background-transition="Slide">
+					<div class='footer'>Use left and right arrows to navigate</div>
+					<h2>MARKET LEADERS</h2>
+					<span class="bbc_headx">Compare</span><span class="bbc_text">Providers</span>
+					<p></p>
+					<table  class="fragment fade-in">
+						<thead style="background-color:#0000FF;">
+							<th>ERP System</th><th>Market Share</th>
+						</thead>
+						<tbody>
+							<tr class="fragment fade-in">
+								<td>SAP HANA</td><td>20.3</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>ORACLE</td><td>13.9</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>Microsoft Dynamics</td><td>9.4</td>
+							</tr>
+							<tr class="fragment fade-in" style="background-color:red; ">
+								<td>Total</td><td>43.6</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section data-state='projects-updates' data-background="images/bg/erp_modules_diagram.jpg" data-background-transition="Slide">
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/computer_history_01_dark.jpg" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<div class='footer'>Use left and right arrows to navigate</div>
+					<h2>HISTORY</h2>
+					<span class="bbc_headx">ERP</span><span class="bbc_text">2002 - 2006</span>
+					<ul>
+						<li class="fragment roll-in">2002 Sep IBM Power4 HW rcvd</li>
+						<li class="fragment roll-in">2002 Dec Time Att./HR/Payroll install</li>
+						<li class="fragment roll-in">2003 Aug JD Edwards committee</li>
+						<li class="fragment roll-in">2004 Jan Install/Migrate Finance World Software to E1 XE</li>
+						<li class="fragment roll-in">2004 Apr Data migrate: World Soft to OneWorld ver.B7333</li>
+						<li class="fragment roll-in">2004 May One World upgrade: Enterprise One ver.8.9</li>
+						<li class="fragment roll-in"><span style="background-color: green;">2004 June Go Live Enterprise One ver.8.9</span></li>
+						<li class="fragment roll-in">2004 Dec Implement HR Payroll E1</li>
+						<li class="fragment roll-in">2005 Jun Implement Sales Order E1</li>
+						<li class="fragment roll-in">2005 May Budget & Consolidation E1</li>
+						<li class="fragment roll-in">2006 Feb Implement Chart of Accts, Maint, C&amp;P, Inventory</li>
+					</ul>
+
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/computer_history_02_dark.jpg" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>HISTORY</h2>
+					<span class="bbc_headx">ERP</span><span class="bbc_text">2006 - 2017</span>
+					<ul>
+						<li class="fragment roll-in"><span style="background-color: green;">2006 Apr Upgrade v8.9 to v8.11 SP1</span></li>
+						<li class="fragment roll-in">2007 Feb Chart of Accts. Maint., C&P Inventory Go Live</li>
+						<li class="fragment roll-in">2012 May ERP Imaging Integration</li>
+						<li class="fragment roll-in"><span style="background-color: green;">2014 Aug ERP Upgrade 8.11 to E1 9.1</span></li>
+						<li class="fragment roll-in">2016 Dec Business Intelligence Dashboard</li>
+						<li class="fragment roll-in">2017 Sep ERP Assessment Report</li>
+					</ul>
+
+				</section>
+
+
+				<section data-state="modules-implemented" data-background="images/bg/bw-apple-iphone-notepad-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>ERP MODULES IMPLEMENTED</h2>
+					<span class="bbc_headx">Module</span><span class="bbc_text">Application/Enhancement</span>
+
+					<ul>
+						<li class="fragment roll-in"><span style="background-color: green;">Finance/AP/AR/GL</span></li>
+							<ul>
+								<li class="fragment roll-in">Unit Cost Reporting</li>
+								<li class="fragment roll-in">Expense Management</li>
+								<li class="fragment roll-in">Budget Processing</li>
+								<li class="fragment roll-in">Sales &amp; Distribution</li>
+							</ul>
+						<li class="fragment roll-in"><span style="background-color: green;">HR/Payroll</span></li>
+							<ul>
+								<li class="fragment roll-in">Time &amp; Attendance</li>
+								<li class="fragment roll-in">Competency Management</li>
+								<li class="fragment roll-in">Performance Appraisals</li>
+								<li class="fragment roll-in">Electronic Transfers</li>
+							</ul>
+					</ul>
+
+					<!--
+					<div style="width: 300px; height: 600px;">
+						<img id="slideimg_201" class="announce" src="images/announce-lotus-notes.png">
+						<img id="slideimg_202" class="announce" src="images/dashboard-sqa-team.png">
+					</div>
+					-->
+
+				</section>
+
+				<section data-state="modules-implemented" data-background="images/bg/bw-apple-iphone-notepad-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>ERP MODULES IMPLEMENTED</h2>
+					<span class="bbc_headx">Module</span><span class="bbc_text">Application/Enhancement</span>
+
+					<ul>
+						<li class="fragment roll-in"><span style="background-color: green;">Supply Chain / C &amp; P</span></li>
+							<ul>
+								<li class="fragment roll-in">Unit Cost Reporting</li>
+								<li class="fragment roll-in">Expense Management</li>
+								<li class="fragment roll-in">Budget Processing</li>
+								<li class="fragment roll-in">Sales &amp; Distribution</li>
+							</ul>
+						<li class="fragment roll-in"><span style="background-color: green;">Inventory/Warehouse</span></li>
+							<ul>
+								<li class="fragment roll-in">Time &amp; Attendance</li>
+								<li class="fragment roll-in">Competency Management</li>
+								<li class="fragment roll-in">Performance Appraisals</li>
+								<li class="fragment roll-in">Electronic Transfers</li>
+							</ul>
+					</ul>
+
+				</section>
+
+
+				<section data-state="modules-implemented" data-background="images/bg/bw-apple-iphone-notepad-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>ERP MODULES IMPLEMENTED</h2>
+					<span class="bbc_headx">Module</span><span class="bbc_text">Application/Enhancement</span>
+
+					<ul>
+						<li class="fragment roll-in"><span style="background-color: green;">Maintenance/Production</span></li>
+							<ul>
+								<li class="fragment roll-in">Equipment Mgmt.</li>
+								<li class="fragment roll-in">Work Order Mgmt.</li>
+								<li class="fragment roll-in">PM Schedules</li>
+								<li class="fragment roll-in">Maintenance Loop</li>
+								<li class="fragment roll-in">Failure Analysis</li>
+								<li class="fragment roll-in">Shutdown Mgmt.</li>
+							</ul>
+					</ul>
+
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/project-team-desktop-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">New </span><span class="bbc_text">Application/Enhancement</span>
+
+					<ul>
+						<li class="fragment roll-in">ERP Employee Performance Appraisal System (EPAS)</li>
+						<li class="fragment roll-in">ERP Employee Promotion Request</li>
+						<li class="fragment roll-in">ERP Employee Clearance system</li>
+						<li class="fragment roll-in">ERP Business Travel Authorization Request</li>
+						<li class="fragment roll-in">ERP 12 Hour/shift Time attendance and Payroll</li>
+						<li class="fragment roll-in">ERP Expense claim implementation</li>
+						<li class="fragment roll-in">ERP Unit Cost Reporting</li>
+						<li class="fragment roll-in">ERP Bank payments &amp; reconciliation</li>
+					</ul>
+
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/project-team-desktop-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">New </span><span class="bbc_text">Application/Enhancement</span>
+
+					<ul>
+						<li class="fragment roll-in">ERP Shipment Tracking</li>
+						<li class="fragment roll-in">ERP Material Irregularity Tracking</li>
+						<li class="fragment roll-in">ERP Liquidated Damages</li>
+						<li class="fragment roll-in">ERP Buying Source Workflow</li>
+						<li class="fragment roll-in">ERP Equipment Criticality Ranking</li>
+						<li class="fragment roll-in">ERP Failure Analysis</li>
+						<li class="fragment roll-in">ERP New Shutdown Material Monitoring</li>
+						<li class="fragment roll-in">ERP New Periodic Maintenance Forecasting</li>
+						<li class="fragment roll-in">ERP New Streamline Maint. Planning Process</li>
+						<li class="fragment roll-in">ERP Safety Work Permit Revamp</li>
+					</ul>
+
+					<!--
+					<div style="width: 300px; height: 600px;">
+						<img id="slideimg_201" class="announce" src="images/announce-lotus-notes.png">
+						<img id="slideimg_202" class="announce" src="images/dashboard-sqa-team.png">
+					</div>
+					-->
+
+				</section>
+
+				<section data-state='projects-updates' data-background="images/bg/project-team-desktop-dark.png" data-background-transition="Slide">
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">New Custom</span><span class="bbc_text">ERP Deployment Metrics</span>
+					<p></p>
+					<table  class="fragment fade-in">
+						<thead style="background-color:#0000FF;">
+							<th>Business Area</th><th>Project</th>
+						</thead>
+						<tbody>
+							<tr class="fragment fade-in">
+								<td>Finance/AP/AR/GL</td><td>23</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>Contracts &amp; Procurement</td><td>11</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>Warehouse</td><td>8</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>HR</td><td>26</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>Maintenance</td><td>17</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>Production</td><td>3</td>
+							</tr>
+
+							<tr class="fragment fade-in" style="background-color:red; ">
+								<td>Total</td><td>88</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<!--
+				<section data-state='projects-updates' data-background="images/bg/project-team-desktop-dark.png" data-background-transition="Slide">
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">New Custom</span><span class="bbc_text">ERP Platform Metrics</span>
+					<p></p>
+					<table  class="fragment fade-in">
+						<thead style="background-color:#0000FF;">
+							<th>Environment</th><th>Projects</th><th>Objects</th>
+						</thead>
+						<tbody>
+							<tr class="fragment fade-in">
+								<td>[PD] Production</td><td>137</td><td>4371</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>[PY] Test QA/UAT</td><td>25</td><td>1190</td>
+							</tr>
+							<tr class="fragment fade-in">
+								<td>[DV] Development</td><td>14</td><td>203</td>
+							</tr>
+							<tr class="fragment fade-in" style="background-color:red; ">
+								<td>Total</td><td>176</td><td>5764</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				-->
+
+
+				<section data-state="projects-updates" data-background="images/bg/notepad-macbook-iphone-desk-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">ERP </span><span class="bbc_text">JDE vs SAP Assessment Study</span>
+
+					<ul>
+						<li class="fragment roll-in">Comparison Study : JDE vs SAP</li>
+						<li class="fragment roll-in">Tendered. Completed by KPIT</li>
+						<li class="fragment roll-in">3 Reports : Business </li>
+						<ul>
+							<li class="fragment roll-in">Business Requirements</li>
+							<li class="fragment roll-in">Technical Solutions Document</li>
+							<li class="fragment roll-in">Management Executive Report</li>
+							<ul><li class="fragment roll-in">Management Presentation</li></ul>
+						</ul>
+						<li class="fragment roll-in">Executive Decision</li>
+					</ul>
+
+					<!--
+					<div style="width: 300px; height: 600px;">
+							<img id="slideimg_201" class="announce" src="images/dashboard-sqa-team.png">
+							<img id="slideimg_202" class="announce" src="images/announce-lotus-notes.png">
+					</div>
+					-->
+
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/notepad-macbook-iphone-desk-dark.png" style="text-align: left; vertical-align:top; margin-left: 20px;">
+
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">ERP </span><span class="bbc_text">Typical Areas of Concern</span>
+
+					<ul>
+						<li class="fragment roll-in">Legacy ERP issues rollover </li>
+						<li class="fragment roll-in">C&amp;P Problems &amp; Audits</li>
+						<li class="fragment roll-in">Resistance to Process Changes</li>
+						<ul>
+							<li class="fragment roll-in">Old is gold</li>
+							<li class="fragment roll-in">Re-training of staff</li>
+							<li class="fragment roll-in">Business process re-engineering</li>
+							<ul><li class="fragment roll-in">Management Support</li></ul>
+						</ul>
+						<li class="fragment roll-in">Use Standard Functionality (preferred)</li>
+					</ul>
+
+					<!--
+					<div style="width: 300px; height: 600px;">
+							<img id="slideimg_201" class="announce" src="images/dashboard-sqa-team.png">
+							<img id="slideimg_202" class="announce" src="images/announce-lotus-notes.png">
+					</div>
+					-->
+
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/project_management_solid_dark.jpg" style="text-align: left; vertical-align:top; margin-left: 20px;">
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">ERP </span><span class="bbc_text">L &amp; T Audits</span>
+
+					<div style="width: 800px; height: 600px; border: 0px solid yellow;padding: 5px;">
+						<img src="images/LNT_table.jpg" width="800" height="500">
+					</div>
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/project_management_solid_dark.jpg" style="text-align: left; vertical-align:top; margin-left: 20px;">
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">ERP </span><span class="bbc_text">L &amp; T Audits</span>
+
+					<div style="width: 800px; height: 600px; border: 0px solid yellow;padding: 10px;">
+						<img src="images/LNT_pie_01.jpg" width="700" height="500">
+					</div>
+				</section>
+
+				<section data-state="projects-updates" data-background="images/bg/project_management_solid_dark.jpg" style="text-align: left; vertical-align:top; margin-left: 20px;">
+					<h2>PROJECTS 2017</h2>
+					<span class="bbc_headx">ERP </span><span class="bbc_text">L &amp; T Audits</span>
+
+					<div style="width: 800px; height: 600px; border: 0px solid yellow;margin-top:1px;padding: 10px;">
+						<img src="images/LNT_pie_02.jpg" width="800" height="500">
+					</div>
+				</section>
+
+				<section data-state="cxo-dash-main" data-background="images/bg/software-roadmap-dark.jpg" style="text-align: left; vertical-align:top">
+
+			  	<h2 class="colfg_green">ROAD MAP 2018+</h2>
+				<span class="bbc_headx">1.0 </span><span class="bbc_text">ERP Technical Upgrade</span>
+
+				<div class="left_sidebar_wide">
+						<ul>
+							<li class="fragment roll-in">Plan move ERP JD Edwards EnterpriseOne ver.9.2</li>
+							<li class="fragment roll-in">Meet ORACLE Minimum Technical Req. (MTR)</li>
+								<ul>
+									<li class="fragment roll-in">Database Upgrade</li>
+									<li class="fragment roll-in">Legacy ESU (patch management)</li>
+									<li class="fragment roll-in">Hardware Spec upgrade</li>
+									<li class="fragment roll-in">Additional Licensing</li>
+								</ul>
+							<li class="fragment roll-in">EnterpriseOne ver. 9.2. Software Upgrade</li>
+								<ul>
+									<li class="fragment roll-in">Configuration</li>
+									<li class="fragment roll-in">Regression Testing</li>
+									<li class="fragment roll-in">Re-Customization(minor)</li>
+									<li class="fragment roll-in">User Training</li>
+								</ul>
+						</ul>
+				  	</div>
+
+				</section>
+
+				<section data-state="cxo-dash-main" data-background="images/bg/software-roadmap-dark.jpg" style="text-align: left; vertical-align:top">
+
+			  <h2 class="colfg_green">ROAD MAP 2018+</h2>
+				<span class="bbc_headx">2.0 </span><span class="bbc_text">ERP Functional Upgrade</span>
+
+				<div class="left_sidebar_wide">
+						<ul>
+							<li class="fragment roll-in">Plan move ERP JD Edwards EnterpriseOne ver.9.2</li>
+							<li class="fragment roll-in">Implement Functional upgrade</li>
+								<ul>
+									<li class="fragment roll-in">Close Audit Gaps</li>
+									<li class="fragment roll-in">Use Standard functionality</li>
+								</ul>
+							<li class="fragment roll-in">Based on regression analysis</li>
+								<ul>
+									<li class="fragment roll-in">Dormant non-standard functionality</li>
+									<li class="fragment roll-in">Revise or re-engineer existing processes</li>
+								</ul>
+						</ul>
+				  	</div>
+
+				</section>
+
+				<section data-state="cxo-dash-main" data-background="images/bg/software-roadmap-dark.jpg" style="text-align: left; vertical-align:top">
+			  <h2 class="colfg_green">ROAD MAP 2018+</h2>
+				<span class="bbc_headx">3.0 </span><span class="bbc_text">ERP Additional Modules</span>
+				<div class="left_sidebar_wide">
+						<p class="fragment roll-in">Based on requirement analysis and Business acceptance implement following ERP Standard</p>
+						<ul>
+							<li class="fragment roll-in">Capacity Resource Planning</li>
+							<li class="fragment roll-in">Condition Based Maintenance</li>
+							<li class="fragment roll-in">Advanced Warehousing</li>
+							<li class="fragment roll-in">Project Planning</li>
+							<li class="fragment roll-in">MRP improvements</li>
+						</ul>
+				</div>
+				</section>
+
+				<section data-state="cxo-dash-main" data-background="images/bg/software-roadmap-dark.jpg" style="text-align: left; vertical-align:top">
+			  <h2 class="colfg_green">ROAD MAP 2018+</h2>
+				<span class="bbc_headx">4.0 </span><span class="bbc_text">ERP External Products</span>
+				<div class="left_sidebar_wide">
+						<p class="fragment roll-in">Based on requirement analysis and Business acceptance implement following additional third party products as necessary:</p>
+						<ul>
+							<li class="fragment roll-in">e-Procurement</li>
+							<li class="fragment roll-in">e-Recruitment</li>
+							<li class="fragment roll-in">Budgeting & Forecasting </li>
+							<li class="fragment roll-in">Project Planning</li>
+							<li class="fragment roll-in">MRP improvements</li>
+						</ul>
+						<p class="fragment roll-in">All decisions are subject to Business User Acceptance (UAT) and any additional licensing requirements.</p>
+				</div>
+				</section>
+
+				<section  data-background="images/bg/mac_ipad_iphone_desktop_dark.png" style="text-align: left;">
+					<h1>Q &amp; A</h1>
+					<p>
+						Any questions ?
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/velocity.min.js"></script>
+		<script src="js/velocity.ui.min.js"></script>
+		<script src="js/animeScript.min.js"></script>
+
+	</body>
+</html>

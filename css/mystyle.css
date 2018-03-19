@@ -1,0 +1,147 @@
+
+.reveal img, .reveal video, .reveal iframe {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.highlight-text { color: yellow;}
+
+#mylogo, #mylogoX, #mylogoY, #mylogoZ, #myMobile1, 
+#slideimg_101,
+#slideimg_201,
+#slideimg_301,
+#dr-failover-updates-01, 
+#primavera-01,
+#maint-loop-01,
+#cxo-dash-101,
+#cxo-dash-201,
+#mobile-access-01,
+#apps-emp-101,
+#mobile-apps-ipad-01
+{
+  position: absolute;
+  left: -1200px;
+  top: 0px;
+}
+
+#mylogo2, #mylogo2X, #mylogo2Y, #mylogo2Z, #myMobile2, 
+#slideimg_102,
+#slideimg_202,
+#slideimg_302,
+#dr-failover-updates-02,
+#primavera-02,
+#maint-loop-02,
+#cxo-dash-102,
+#cxo-dash-202,
+#mobile-access-02,
+#apps-emp-102,
+#mobile-apps-ipad-02
+{
+  position: absolute;
+  left: 100px;
+  top: -1200px;
+}
+
+#mylogo3, #mylogo3X, #mylogo3Y, #mylogo3Z, #myMobile3, 
+#slideimg_103,
+#slideimg_203,
+#slideimg_303,
+#cxo-dash-103,
+#cxo-dash-203,
+#primavera-03,
+#mobile-access-03,
+#mobile-apps-ipad-03
+{
+  position: absolute;
+  left: 100px;
+  top: 1200px;
+}
+
+#myRect1 {
+    background-color: indianred;
+    color: yellow;
+    left: 100px;
+    top: -1200px;
+  }
+
+#myRect2 {
+    background-color: azure;
+    color: red;
+    /*left: 100px;*/
+    left: -1200px;
+  }
+
+#myRect3 {
+    background-color: green;
+    color: white;
+    /*left: 100px;*/
+    left: -1200px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+
+	/* .iphone { position: absolute; width: 200px; height: 400px; } */
+	
+	.announce { position: absolute; width: 300px; height: 600px; }
+	.announce:hover { top:0; left:0px; margin-right: 100px; width: 400px; height: 650px; z-index:1;	}
+
+	.erpscreen {
+		position: absolute;
+    width: 400px;
+    height: 300px;
+	}
+
+	.ipadscreen { position: absolute; width: 400px; height: 300px; }
+	.ipadscreen:hover { z-index:1;	}
+
+	.dashboard { position: absolute; width: 330px; height: 600px;	}
+	.dashboard:hover { top:0; left:0px; width: 400px; z-index:1;	}
+
+
+	.iphone { position: absolute; width: 330px; height: 600px;	}
+	.iphone:hover { z-index:1;	}
+
+  img.pogo {
+    margin: 2px 0px;
+    border: 0px solid #fff;
+    /*background: rgba(255, 255, 255, 0.12);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+  }
+
+  .divlo {
+      position: absolute;
+      border: 1px solid yellow;
+      width: 400px;
+      height: 200px;
+      font-family: Garamond, Arial;
+      font-size: 12px;
+  }
+
+  .offCanvasLeft {
+    left: -1200px;
+  }
+
+  .offCanvasTop {
+    top: -1200px;
+  }
+
+	html.intro body {
+		/*background: url("../images/bg/responsive_design2.jpg");*/
+		background-position:center;
+		background-size: 100%;
+	}
+
+	html.intro h1 {
+		background-color: rgba(255,255,255,0.8);
+		color: dodgerblue;
+	}
+
+	html.img-right div.slide-background.present {
+			width: 50%;
+			background-position: left;
+	}
